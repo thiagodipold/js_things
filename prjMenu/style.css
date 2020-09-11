@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+}
+
+aside{
+	position: fixed;
+	height: 100vh;
+	display: flex;
+	right: 0;
+}
+
+#fechar-menu img{
+	cursor: pointer;
+}
+
+.menu-aberto{
+	width: 0;
+	background-color: rgba(0,0,0,0.7);
+	transition: all ease 0.5s;
+}
+
+.menu-aberto li{
+	list-style-type: none;
+	margin: 5px 0;
+	padding: 5px 0;
+	font-size: 18px;
+}
+
+.open{
+	width: 200px;
+}
